@@ -1,0 +1,220 @@
+img, embed, object, video {
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    align-items: center;
+    background-color: #fafafa;
+    color: #333;
+    display:flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+    align-items: center;
+    background: #fff;
+    box-shadow: 0px 1px 10px -2px #333;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 0 0.5em 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 3.2em;
+    font-weight: 300;
+    line-height: 1em;
+}
+
+#navi-logo img {
+    align-self: center;
+    display: flex;
+    margin-left: 2em;
+    max-height: 2em;
+}
+
+#navi-menu {
+    color: #ea4235;
+    font-size: 0.9em;
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+    margin-right: 2em;
+}
+
+#intro {
+    align-items: center;
+    align-self: stretch;
+    background: url('../images/ligas-virtuales-omega.jpg') bottom fixed;
+    background-size: cover;
+    color: #000;
+    display: flex;
+    height: 28em;
+    justify-content: center;
+    margin-top: 3em;
+    padding: 2em;
+}
+
+#intro-text {
+    color: #494C52;
+    margin-right: 4em;
+}
+
+#intro-text p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: -0.5em;
+}
+
+#intro-text h1 {
+    color: #ea4235;
+    color: #fff;
+    font-size: 2.8em;
+}
+
+#intro-text h1 span {
+    font-weight: 700;
+}
+
+#intro-text ul {
+    font-size: 1.1em;
+    list-style: none;
+    margin-top: -0.4em;
+    margin-bottom: 2em;
+}
+
+#intro-text ul li {
+    line-height: 1.8em;
+    color: #fff;
+    font-weight: 300;
+}
+
+#intro-text ul li span {
+    color: #ea4235;
+}
+
+#intro-text img {
+    max-width: 12em;
+    margin: 0 1em -4em 0;
+}
+
+#intro-webservice p {
+    color: #fff;
+    font-size: 0.9em;
+    margin-top: 0em;
+    text-align: center;
+}
+
+#industry {
+    padding: 0em 1em 1em 1em;
+}
+
+#industry h2 {
+    color: #282828;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#industry h4 {
+    font-size: 1.25em;
+    font-weight: 700;
+    margin-top: 4em;
+    text-align: center;
+}
+
+#industry-icons {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#industry-icons h3 {
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+#industry-icons img {
+    max-width: 6em;
+}
+
+#industry-icons :nth-child(5) {
+    margin-top: -0.6em;
+}
+
+#industry-text {
+    max-width: 600px;
+}
+
+#industry-text h3 {
+    font-size: 1.5em;
+    margin: 2em 0 0.5em 0;
+}
+
+#industry-text p {
+    color: #7a7c84;
+    line-height: 1.5em;
+}
+
+#testimonial {
+    display: flex;
+    justify-content: center;
+}
+
+#testimonial h4 {
+    max-width: 35em;
+    margin-top: 3.5em;
+}
+
+footer {
+    background: #404040;
+    color: #fff;
+}
+
+#footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+#footer-columns h5 {
+    font-size: 1.2em;
+    margin: 2em 0 0 0;
+}
+
+#footer-columns p {
+    font-size: 0.8em;
+    line-height: 2em;
+}
+
+#footer-columns div:nth-child(2) p:nth-child(3) {
+    margin-top: -1em;
+}
+
+
+#copyright {
+    font-size: 0.8em;
+    margin: 3em 0 2em 0;
+    text-align: center;
+}
+
+
+/*NEW*/
+
+.medium-img {
+    max-height: 60px;
+}

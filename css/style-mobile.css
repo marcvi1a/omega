@@ -46,13 +46,13 @@ header {
 }
 
 .download {
-    /*display: flex;*/
-    /*margin-right: -4.5em;*/
-    /*align-items: center;*/
+    display: flex;
+    margin-right: -4.5em;
+    align-items: center;
 }
 
 .download a {
-    /*margin-top: -3.5em;*/
+    margin-top: -3.5em;
 }
 
 .downlaod img {

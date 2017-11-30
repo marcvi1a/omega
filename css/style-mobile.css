@@ -1,13 +1,17 @@
-header {
-    align-items: center;
-}
-
 .mobile-none {
     display: none;
 }
 
+.desktop-only {
+    display: none;
+}
+
+header {
+    align-items: flex-start;
+}
+
 #navi-menu {
-    font-size: 1.25em;
+    font-size: 1em;
 }
 
 #navi-menu span {
@@ -15,6 +19,7 @@ header {
 }
 
 #intro {
+    align-self: auto;
     height: auto;
     flex-direction: column;
     margin-top: 2.5em;
@@ -28,35 +33,6 @@ header {
 
 #intro-text h1 {
     line-height: 1.25em;
-}
-
-#intro-text ul {
-    font-size: 1em;
-    margin-left: -1.8em;
-    margin-top: -1.25em;
-}
-
-#intro-text li {
-    font-size: 0.9em;
-    margin-top: 0.5em;
-}
-
-#intro-text ul li span {
-    color: #fff;
-}
-
-.download {
-    display: flex;
-    margin-right: -4.5em;
-    align-items: center;
-}
-
-.download a {
-    margin-top: -2em;
-}
-
-.downlaod img {
-    max-width: 4em;
 }
 
 #industry {
@@ -81,11 +57,6 @@ header {
     margin-top: 2.5em;
     margin-bottom: 0.5em;
 }
-
-.desktop-only {
-    display: none;
-}
-
 
 /* NO MODAL */
 

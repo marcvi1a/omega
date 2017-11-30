@@ -45,18 +45,18 @@ header {
     color: #fff;
 }
 
-#intro-text img {
-    max-width: 10em;
-}
-
 .download {
-    display: flex;
-    margin-right: -4.5em;
-    align-items: center;
+    /*display: flex;*/
+    /*margin-right: -4.5em;*/
+    /*align-items: center;*/
 }
 
 .download a {
-    margin-top: -3.5em;
+    /*margin-top: -3.5em;*/
+}
+
+.downlaod img {
+    max-width: 8em;
 }
 
 #industry {
@@ -68,9 +68,9 @@ header {
 }
 
 
-
 #industry-text h3 {
     font-size: 1.4em;
+    margin-top: -1em;
 }
 
 #testimonial h4 {

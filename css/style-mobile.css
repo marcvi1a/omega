@@ -7,7 +7,11 @@ header {
 }
 
 #navi-logo img {
-    max-height: 1.5em;
+    /*max-height: 2em;*/
+}
+
+#navi-menu {
+    font-size: 1.25em;
 }
 
 #navi-menu span {

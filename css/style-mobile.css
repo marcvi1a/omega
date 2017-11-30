@@ -19,7 +19,6 @@ header {
 }
 
 #intro {
-    align-self: auto;
     height: auto;
     flex-direction: column;
     margin-top: 2.5em;
@@ -33,6 +32,7 @@ header {
 
 #intro-text h1 {
     line-height: 1.25em;
+    margin-bottom: 2em;
 }
 
 #industry {

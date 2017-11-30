@@ -56,7 +56,7 @@ header {
 }
 
 .downlaod img {
-    max-width: 8em;
+    max-width: 4em;
 }
 
 #industry {
@@ -67,6 +67,9 @@ header {
     display: none;
 }
 
+#industry-text h3 {
+    margin-top: -1em;
+}
 
 #industry-text h3 {
     font-size: 1.4em;

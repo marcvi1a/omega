@@ -22,8 +22,8 @@ header {
 }
 
 #intro-text p {
-    font-size: 1.1em;
-    margin-bottom: -1em;
+    font-size: 1em;
+    margin-bottom: -1.5em;
 }
 
 #intro-text h1 {
@@ -33,7 +33,7 @@ header {
 #intro-text ul {
     font-size: 1em;
     margin-left: -1.8em;
-    margin-top: -1em;
+    margin-top: -1.25em;
 }
 
 #intro-text li {
@@ -41,7 +41,7 @@ header {
     margin-top: 0.5em;
 }
 
-#intro-text li :nth-child(3) {
+#intro-text ul li span {
     color: #fff;
 }
 
